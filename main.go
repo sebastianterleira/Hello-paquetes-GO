@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"greet"
+	"github.com/sebastianterleira/Hello-paquetes-GO/greet"
 )
 
 func main() {
-	fmt.Println("Hello")
-	greet.English()
+	fmt.Println(greet.Spanish())
 }
